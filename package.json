@@ -1,8 +1,11 @@
 {
   "scripts": {
-    "demo": "node hello.js"
+    "demo": "rollup -c"
   },
   "dependencies": {
     "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "rollup": "^0.65.0"
   }
 }

@@ -1,3 +1,5 @@
-const _ = require('lodash')
+import {capitalize} from 'lodash'
 
-console.log('Hello, ' + _.capitalize('javascript'))
+export default function (name) {
+    return 'Hello, ' + capitalize(name) + '!'
+}
