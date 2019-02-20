@@ -1,6 +1,6 @@
 export default {
     entry: 'main.js',
-    dest: 'bundle.js',
-    format: 'cjs',
+    dest: 'bundle.mjs',
+    format: 'esm',
     external: ['lodash']
 }
