@@ -1,16 +1,15 @@
 {
-  "name": "javascript-rollup-esm-uses-commonjs-as-external-demo--esm-module2",
-  "version": "0.1.1",
-  "main": "dist/index.js",
+  "name": "typescript-webpack-uses-esm-modules-demo--module2",
+  "version": "0.1.0",
   "module": "dist/index.mjs",
   "scripts": {
     "build": "rollup -c"
   },
   "devDependencies": {
-    "javascript-rollup-esm-uses-commonjs-as-external-demo--cjs-module1": "0.1.0",
+    "typescript-webpack-uses-esm-modules-demo--module1": "0.1.0",
     "rollup": "1.7.0"
   },
   "peerDependencies": {
-    "javascript-rollup-esm-uses-commonjs-as-external-demo--cjs-module1": "0.1.0"
+    "typescript-webpack-uses-esm-modules-demo--module1": "0.1.0"
   }
 }

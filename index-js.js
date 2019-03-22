@@ -1,3 +1,3 @@
-import {esmModule3} from 'javascript-rollup-esm-uses-commonjs-as-external-demo--esm-module3';
+import {module2} from 'typescript-webpack-uses-esm-modules-demo--module2';
 
-esmModule3();
+module2();
