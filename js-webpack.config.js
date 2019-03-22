@@ -4,5 +4,8 @@ module.exports = {
   output: {
     path: __dirname,
     filename: 'dist/bundle-js.js'
+  },
+  resolve: {
+    mainFields: ['module']
   }
 }

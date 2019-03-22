@@ -1,15 +1,15 @@
 {
   "name": "typescript-webpack-uses-esm-modules-demo--module2",
-  "version": "0.1.0",
-  "module": "dist/index.mjs",
+  "version": "0.1.2",
+  "module": "dist/bundle.mjs",
   "scripts": {
     "build": "rollup -c"
   },
   "devDependencies": {
-    "typescript-webpack-uses-esm-modules-demo--module1": "0.1.0",
+    "typescript-webpack-uses-esm-modules-demo--module1": "0.1.2",
     "rollup": "1.7.0"
   },
   "peerDependencies": {
-    "typescript-webpack-uses-esm-modules-demo--module1": "0.1.0"
+    "typescript-webpack-uses-esm-modules-demo--module1": "0.1.2"
   }
 }
