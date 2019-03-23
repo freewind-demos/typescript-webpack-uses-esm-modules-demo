@@ -1,6 +1,9 @@
 JavaScript Webpack Uses "esm" modules with "module" field in "package.json" Issue Demo
 =======================================================================================
 
+更新：最后在@wei的帮助下，找到原因，原来是`.mjs`后缀的原因。Webpack对`.mjs`支持有问题，现在改成了某种形式的`.js`文件（`.esm.js`），
+就一切正常了。
+
 There are 2 modules (`module1/module2`) in this demo. In their `package.json`, 
 there is no `main` field, but have `module` field points to the bundle file with `esm` format,
 and they have published to npmjs.
